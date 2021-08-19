@@ -1,42 +1,160 @@
-/* h1 styling - top left of the right side of the page is heading, aligned right is 'login' */
-
-/* links are a single bar under the heading */
-
 <style>
-  h1 {
-       display: flex;
-       align-items: left;
-       justify-content: left;
-       height: 10vh;
-    }
+h1 {
+   display: flex;
+   align-items: left;
+   justify-content: left;
+   text-align: left;
+   margin-left: 50%;
+}
+.header {
+  margin-left: 50%;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: left;
+  font-family: Arial, sans-serif;
+}
+body {
+  background-image: url(/Users/snoodle/turing/2m/pre_work/static_challenges/images/1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
 
-   * {
-     padding: 0;
-     margin: 0;
-     box-sizing: border-box;
+/* Style the top navigation bar */
+.topnav {
+  margin-left: 50%;
+  font-size: 10px;
+  overflow: hidden;
+  background-color: sienna;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+}
+/* Style the topnav links */
+.topnav a {
+  color: #f2f2f2;
+  padding: 10px 50px;
+  text-decoration: none;
+}
+
+.paragraph-one {
+  margin-left: 50%;
+  padding: 12px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+  background: rgba(0, 0, 0, 0.6)
+}
+
+table, td, th {
+  margin-left: 50%;
+  border: clear;
+  text-align: left;
+  }
+
+table {
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th {
+  font-size: 16px;
  }
 
- .title-bar {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 10vh;
-   }
- body {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-   }
+ /* .leftcolumn {
+   margin-left: 50%;
+   font-size: 16px;
+   float: left;
+   width: 33.33%;
+   padding: 6px;
+   color: white;
+   box-sizing: border-box;
+   background: rgba(0, 0, 0, 0.6)
+ }
+.middlecolumn {
+  margin-left: 50%;
 
- .paragraph-two {
-     font-size: 1.5rem;
-      }
+   font-size: 16px;
+   float: left;
+   width: 33.33%;
+   padding: 6px;
+   color: white;
+   box-sizing: border-box;
+   background: rgba(0, 0, 0, 0.6)
+ }
+.rightcolumn {
+  margin-left: 50%;
+   font-size: 16px;
+   float: left;
+   width: 33.33%;
+   padding: 6px;
+   color: white;
+   box-sizing: border-box;
+   background: rgba(0, 0, 0, 0.6)
+ }
+ .row:after {
+   margin-left: 50%;
+   content: "";
+   display: table;
+   clear: both;
+ } */
 
- .paragraph-one a {
-      text-decoration: none;
-      color: crimson;
-      font-size: 2rem;
-      font-weight: bolder;
-     }
+/*
+ .leftcolumn, .middlecolumn, .rightcolumn {
+   font-size: 16px;
+   float: left;
+   width: 33.33%;
+   padding: 6px;
+   color: white;
+   box-sizing: border-box;
+   background: rgba(0, 0, 0, 0.6)
+
+ }
+ /* Clear floats after the columns */
+ /* .row:after {
+   margin-left: 50%;
+   content: "";
+   display: table;
+   clear: both;
+ } */
+
+ [title~=photo] {
+   border: 1px solid orange;
+   width:100px;
+   padding: 0px;
+   box-sizing: border-box;
+ }
+
+.paragraph-two {
+  margin-left: 50%;
+  background: rgba(0, 0, 0, 0.6);
+  font-family: Arial, sans-serif;
+  padding: 12px;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+
+.footer {
+  margin-left: 50%;
+  padding: 6px;
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+  background: rgba(0, 0, 0, 0.6);
+}
+.right {
+  align-items: right;
+  position: absolute;
+  margin-left: 50%;
+  margin-right: 700px;
+  margin-bottom: 0px;
+  width: 750px;
+  padding: 10px;
+ }
  </style>
