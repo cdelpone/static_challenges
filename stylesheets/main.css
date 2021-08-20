@@ -10,7 +10,10 @@ h1 {
   margin-left: 50%;
   background-color: black;
   color: white;
-  padding: 20px;
+  padding-top: 12px;
+  padding-right: 5px;
+  padding-bottom: 12px;
+  padding-left: 16px;
   text-align: left;
   font-family: Arial, sans-serif;
 }
@@ -24,6 +27,7 @@ body {
 /* Style the top navigation bar */
 .topnav {
   margin-left: 50%;
+  padding: 5px;
   font-size: 10px;
   overflow: hidden;
   background-color: sienna;
@@ -35,13 +39,16 @@ body {
 /* Style the topnav links */
 .topnav a {
   color: #f2f2f2;
-  padding: 10px 50px;
+  padding: 50px;
   text-decoration: none;
 }
 
 .paragraph-one {
   margin-left: 50%;
-  padding: 12px;
+  padding-top: 20px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  padding-left: 16px;
   text-decoration: none;
   color: white;
   font-size: 16px;
@@ -53,6 +60,8 @@ table, td, th {
   margin-left: 50%;
   border: clear;
   text-align: left;
+  padding-left: 10px;
+  vertical-align: top;
   }
 
 table {
@@ -63,98 +72,66 @@ table {
 }
 
 th {
-  font-size: 16px;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  font-size: 10px;
  }
-
- /* .leftcolumn {
-   margin-left: 50%;
-   font-size: 16px;
-   float: left;
-   width: 33.33%;
-   padding: 6px;
-   color: white;
-   box-sizing: border-box;
-   background: rgba(0, 0, 0, 0.6)
- }
-.middlecolumn {
-  margin-left: 50%;
-
-   font-size: 16px;
-   float: left;
-   width: 33.33%;
-   padding: 6px;
-   color: white;
-   box-sizing: border-box;
-   background: rgba(0, 0, 0, 0.6)
- }
-.rightcolumn {
-  margin-left: 50%;
-   font-size: 16px;
-   float: left;
-   width: 33.33%;
-   padding: 6px;
-   color: white;
-   box-sizing: border-box;
-   background: rgba(0, 0, 0, 0.6)
- }
- .row:after {
-   margin-left: 50%;
-   content: "";
-   display: table;
-   clear: both;
- } */
-
-/*
- .leftcolumn, .middlecolumn, .rightcolumn {
-   font-size: 16px;
-   float: left;
-   width: 33.33%;
-   padding: 6px;
-   color: white;
-   box-sizing: border-box;
-   background: rgba(0, 0, 0, 0.6)
-
- }
- /* Clear floats after the columns */
- /* .row:after {
-   margin-left: 50%;
-   content: "";
-   display: table;
-   clear: both;
- } */
 
  [title~=photo] {
    border: 1px solid orange;
-   width:100px;
+   width:150px;
    padding: 0px;
    box-sizing: border-box;
  }
 
 .paragraph-two {
   margin-left: 50%;
+  padding-top: 20px;
+  padding-right: 5px;
+  padding-bottom: 40px;
+  padding-left: 16px;
   background: rgba(0, 0, 0, 0.6);
-  font-family: Arial, sans-serif;
-  padding: 12px;
-  text-decoration: none;
   color: white;
-  font-size: 12px;
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+  text-decoration: none;
 }
 
 .footer {
   margin-left: 50%;
-  padding: 6px;
+  padding-top: 50px;
+  padding-right: 5px;
+  padding-bottom: 40px;
+  padding-left: 10px;
   text-decoration: none;
   color: white;
   font-size: 10px;
   background: rgba(0, 0, 0, 0.6);
 }
-.right {
-  align-items: right;
-  position: absolute;
-  margin-left: 50%;
-  margin-right: 700px;
-  margin-bottom: 0px;
-  width: 750px;
-  padding: 10px;
- }
  </style>
+ /* .right {
+ align-items: right;
+ position: absolute;
+ margin-left: 50%;
+ margin-right: 700px;
+ margin-bottom: 0px;
+ width: 750px;
+ padding: 10px;
+ } */
+ /*
+  .leftcolumn, .middlecolumn, .rightcolumn {
+    font-size: 16px;
+    float: left;
+    width: 33.33%;
+    padding: 6px;
+    color: white;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.6)
+  }
+  /* Clear floats after the columns */
+  /* .row:after {
+    margin-left: 50%;
+    content: "";
+    display: table;
+    clear: both;
+  } */
